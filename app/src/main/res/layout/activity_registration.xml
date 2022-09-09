@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".RegistrationActivity">
+
+    <ImageView
+        android:id="@+id/regs"
+        android:layout_width="450sp"
+        android:layout_height="250dp"
+        android:layout_marginTop="9sp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/register"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="255dp"
+        android:text="Sign Up"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100sp"
+        android:layout_marginTop="310dp"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName" />
+
+    <ImageView
+        android:id="@+id/user_img"
+        android:layout_width="25sp"
+        android:layout_height="25sp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="321dp"
+        app:srcCompat="@drawable/username" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100sp"
+        android:layout_marginTop="360dp"
+        android:ems="10"
+        android:hint="Email"
+        />
+
+    <ImageView
+        android:id="@+id/email_img"
+        android:layout_width="25sp"
+        android:layout_height="25sp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="370dp"
+        app:srcCompat="@drawable/email" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100sp"
+        android:layout_marginTop="410dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"/>
+
+    <ImageView
+        android:id="@+id/pass_img"
+        android:layout_width="25sp"
+        android:layout_height="25sp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="420dp"
+        app:srcCompat="@drawable/password" />
+
+    <EditText
+        android:id="@+id/number"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100sp"
+        android:layout_marginTop="460dp"
+        android:ems="10"
+        android:hint="Phone Number" />
+
+    <ImageView
+        android:id="@+id/call_img"
+        android:layout_width="25sp"
+        android:layout_height="25sp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="471dp"
+        app:srcCompat="@drawable/call" />
+    <Button
+        android:id="@id/email"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="540dp"
+        android:background="@drawable/button"
+        android:backgroundTint="@color/white"
+        android:text="Sign Up"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="23sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="600dp"
+        android:text="Registration with..."
+        android:textAllCaps="false" />
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="650dp"
+        android:background="@drawable/button" />
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="660dp"
+        android:layout_marginLeft="182dp"
+        android:background="@drawable/google"/>
+
+
+
+</RelativeLayout>
