@@ -2,63 +2,60 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="#FFFFFF"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     tools:context=".OtpActivity">
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="400dp"
-        android:layout_height="250dp"
-        app:srcCompat="@drawable/otp"
-        tools:layout_editor_absoluteX="5dp"
-        tools:layout_editor_absoluteY="7dp" />
 
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/otp"/>
     <TextView
         android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="100dp"
-        android:layout_marginTop="265dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="270dp"
         android:text="Enter OTP"
         android:textColor="@color/black"
-        android:textSize="30dp"
-        android:textStyle="bold"/>
+        android:textStyle="bold"
+        android:textSize="30dp"/>
 
     <EditText
-        android:id="@+id/number"
+        android:id="@+id/password"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="60dp"
-        android:layout_marginTop="350dp"
+        android:layout_marginTop="370dp"
         android:background="@drawable/edit"
+        android:drawableLeft="@drawable/ic_otp"
+        android:drawableRight="@drawable/ic_hide"
         android:drawablePadding="20dp"
         android:ems="10"
-        android:hint="Enter OTP"
-        android:inputType="number"
+        android:hint="Password"
+        android:inputType="textPassword"
         android:padding="8dp" />
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="70dp"
-        android:layout_marginTop="440dp"
-        android:text=" Resend OTP"
-        android:textColor="#344feb"
-        android:textStyle="bold"
-        android:textSize="20dp" />
-
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="415dp"
+        android:text="Resend Otp"
+        android:textColor="#5C50EF"
+        android:textStyle="bold" />
     <Button
-        android:id="@id/number"
+        android:id="@+id/btn_1"
         android:layout_width="230dp"
         android:layout_height="40dp"
-        android:layout_marginLeft="60dp"
-        android:layout_marginTop="480dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="470dp"
         android:background="@drawable/button"
         android:backgroundTint="@color/white"
-        android:text="Next"
+        android:text="Submit"
         android:textAllCaps="false"
         android:textColor="#FFFFFF"
         android:textSize="23sp"
         android:textStyle="bold" />
+
 
 </RelativeLayout>
