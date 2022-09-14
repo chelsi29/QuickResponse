@@ -33,27 +33,24 @@
         android:textColor="#C3000000" />
 
     <EditText
-        android:id="@+id/number"
-        android:layout_width="250dp"
+        android:id="@+id/username"
+        android:layout_width="240dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="100sp"
-        android:layout_marginTop="410dp"
+        android:layout_marginLeft="60sp"
+        android:layout_marginTop="430dp"
+        android:background="@drawable/edit"
+        android:drawableLeft="@drawable/ic_user"
+        android:drawablePadding="20dp"
         android:ems="10"
-        android:hint="Enter Email/Mobile Number" />
+        android:hint="Email/Phone Number"
+        android:inputType="textPersonName"
+        android:padding="8dp" />
 
-    <ImageView
-        android:id="@+id/call_img"
-        android:layout_width="25sp"
-        android:layout_height="25sp"
-        android:layout_marginLeft="65dp"
-        android:layout_marginTop="420dp"
-        app:srcCompat="@drawable/call" />
     <Button
-        android:id="@id/email"
         android:layout_width="230dp"
-        android:layout_height="40dp"
-        android:layout_marginLeft="80dp"
-        android:layout_marginTop="480dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="500dp"
         android:background="@drawable/button"
         android:backgroundTint="@color/white"
         android:text="Forgot"
