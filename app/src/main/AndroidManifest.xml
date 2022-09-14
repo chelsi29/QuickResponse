@@ -15,19 +15,7 @@
         tools:targetApi="31">
         <activity
             android:name=".ResetActivity"
-            android:exported="true"
-            android:screenOrientation="locked">
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
-</activity>
-        <activity
-            android:name=".OtpActivity"
-            android:exported="false"
-            android:screenOrientation="locked">
-        </activity>
+            android:exported="false" />
         <activity
             android:name=".RegistrationActivity"
             android:exported="false"
@@ -47,8 +35,17 @@
         <activity
             android:name=".ForgotActivity"
             android:exported="false"
-            android:screenOrientation="locked"/>
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".OtpActivity"
+            android:exported="true"
+            android:screenOrientation="locked">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
