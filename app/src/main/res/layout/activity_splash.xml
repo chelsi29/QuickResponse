@@ -7,11 +7,12 @@
     tools:context=".SplashActivity">
 
     <ImageView
-        android:layout_width="500dp"
+        android:layout_width="300dp"
         android:layout_height="500dp"
         android:layout_marginTop="80dp"
+        android:layout_marginLeft="50dp"
         android:scrollbarSize="20sp"
-        android:src="@drawable/splash"/>
+        android:src="@drawable/splash" />
 
 
 </RelativeLayout>
