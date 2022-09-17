@@ -43,6 +43,7 @@
         android:text="Resend Otp"
         android:textColor="#5C50EF"
         android:textStyle="bold" />
+
     <Button
         android:id="@+id/btn_1"
         android:layout_width="230dp"

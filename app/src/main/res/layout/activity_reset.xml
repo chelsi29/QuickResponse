@@ -13,7 +13,7 @@
         android:layout_height="250dp"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="9sp"
-        app:srcCompat="@drawable/forgot" />
+        app:srcCompat="@drawable/register" />
 
     <TextView
         android:layout_width="150dp"

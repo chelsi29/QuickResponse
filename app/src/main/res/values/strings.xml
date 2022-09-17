@@ -2,5 +2,10 @@
     <string name="app_name">Quick Response</string>
     <string name="login">Login</string>
     <string name="forgot">Forgot?</string>
-    <string name="login_with">login With...</string>
+    <string name="login_with">login With Google</string>
+    <string name="Email_ID">Email Id</string>
+    <string name="Password_hint">Password</string>
+    <string name="Account">Don’t have an account?</string>
+    <string name="Register">Register</string>
+    <string name="todo">TODO</string>
 </resources>

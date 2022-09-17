@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".WelcomeActivity">
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="300dp"
+        android:src="@drawable/welcome"
+        android:layout_marginBottom="350dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="130dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello.."
+        android:textColor="#75000000"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="90dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="400dp"
+        android:text="Ashish Parmar"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="450dp"
+        android:text="We responds to the calls automatically by text messages..."
+        android:textColor="#75000000"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/btn_1"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="520dp"
+        android:background="@drawable/button"
+        android:backgroundTint="@color/white"
+        android:text="Get Started"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="23sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
