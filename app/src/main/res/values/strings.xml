@@ -2,10 +2,21 @@
     <string name="app_name">Quick Response</string>
     <string name="login">Login</string>
     <string name="forgot">Forgot?</string>
+    <string name="f_p">Forgot</string>
     <string name="login_with">login With Google</string>
     <string name="Email_ID">Email Id</string>
     <string name="Password_hint">Password</string>
     <string name="Account">Don’t have an account?</string>
     <string name="Register">Register</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="phone">Phone Number</string>
+    <string name="forgot_pass">Forgot Password?</string>
+    <string name="forgot_text">Don’t worry! about it Please enter your number or email</string>
+    <string name="start">Get Started</string>
+    <string name="welcome_msg">We responds to the calls automatically by text messages...</string>
     <string name="todo">TODO</string>
+    <string name="hello">Hello..</string>
+    <string name="wlc">Welcome</string>
 </resources>

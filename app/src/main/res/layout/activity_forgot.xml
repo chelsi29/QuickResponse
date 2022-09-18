@@ -10,50 +10,50 @@
         android:id="@+id/imageView"
         android:layout_width="500sp"
         android:layout_height="250dp"
-        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
         android:layout_marginTop="9sp"
-        app:srcCompat="@drawable/forgot" />
+        app:srcCompat="@drawable/forgot"/>
 
     <TextView
         android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
         android:layout_marginTop="265dp"
-        android:text="Forgot Password?"
+        android:text="@string/forgot_pass"
         android:textColor="@color/black"
-        android:textSize="30dp"
+        android:textSize="30sp"
         android:textStyle="bold" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
         android:layout_marginTop="360dp"
-        android:text="Don’t worry! about it Please enter your number or email"
+        android:text="@string/forgot_text"
         android:textColor="#C3000000" />
 
     <EditText
         android:id="@+id/username"
         android:layout_width="240dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="60sp"
+        android:layout_marginStart="60sp"
         android:layout_marginTop="430dp"
         android:background="@drawable/edit"
-        android:drawableLeft="@drawable/ic_user"
+        android:drawableStart="@drawable/ic_user"
         android:drawablePadding="20dp"
         android:ems="10"
-        android:hint="Email/Phone Number"
+        android:hint="@string/Email_ID"
         android:inputType="textPersonName"
         android:padding="8dp" />
 
     <Button
         android:layout_width="230dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="65dp"
+        android:layout_marginStart="65dp"
         android:layout_marginTop="500dp"
         android:background="@drawable/button"
         android:backgroundTint="@color/white"
-        android:text="Forgot"
+        android:text="@string/f_p"
         android:textAllCaps="false"
         android:textColor="#FFFFFF"
         android:textSize="23sp"

@@ -15,7 +15,7 @@
         android:layout_marginStart="5dp"
         android:layout_marginTop="9sp"
         app:srcCompat="@drawable/logo"
-        tools:ignore="ContentDescription" />
+        tools:ignore="ContentDescription"/>
 
     <TextView
         android:id="@+id/tv1"
@@ -61,6 +61,7 @@
 
 
     <Button
+        android:id="@+id/lodin_btn"
         android:layout_width="230dp"
         android:layout_height="40dp"
         android:layout_marginStart="70dp"
@@ -68,6 +69,7 @@
         android:background="@drawable/button"
         android:backgroundTint="@color/white"
         android:text="@string/login"
+        android:onClick="Login"
         android:textAllCaps="false"
         android:textColor="#FFFFFF"
         android:textSize="23sp"
@@ -100,22 +102,24 @@
         android:textSize="15sp"
         android:textStyle="bold" />
 
-    <ImageView
-        android:id="@+id/Pass"
+    <ImageButton
+        android:id="@+id/pass_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/ic_hide"
+        android:layout_marginStart="280dp"
         android:layout_marginTop="380dp"
-        android:layout_marginStart="280dp"/>
+        android:background="@drawable/eye"
+        app:srcCompat="@drawable/ic_hide" />
+
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="230dp"
         android:layout_marginTop="410dp"
-        android:textAllCaps="false"
         android:background="@drawable/eye"
         android:text="@string/forgot"
+        android:textAllCaps="false"
         android:textColor="@color/white" />
 
     <Button
