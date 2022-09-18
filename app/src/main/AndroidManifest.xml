@@ -22,7 +22,7 @@
             android:exported="false"
             android:screenOrientation="locked"/>
         <activity
-            android:name=".RegistrationActivity"
+            android:name=".ForgotActivity"
             android:exported="false"
             android:screenOrientation="locked" />
         <activity
@@ -38,7 +38,7 @@
             android:exported="false"
             android:screenOrientation="locked" />
         <activity
-            android:name=".ForgotActivity"
+            android:name=".RegistrationActivity"
             android:exported="false"
             android:screenOrientation="locked" />
         <activity
