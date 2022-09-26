@@ -30,7 +30,7 @@
             android:exported="false"
             android:screenOrientation="locked" />
         <activity
-            android:name=".SplashActivity"
+            android:name=".LoginActivity"
             android:exported="false"
             android:screenOrientation="locked" />
         <activity
@@ -42,7 +42,7 @@
             android:exported="false"
             android:screenOrientation="locked" />
         <activity
-            android:name=".LoginActivity"
+            android:name=".SplashActivity"
             android:exported="true"
             android:screenOrientation="locked">
             <intent-filter>
