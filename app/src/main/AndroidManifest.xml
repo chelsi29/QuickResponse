@@ -18,19 +18,7 @@
             android:exported="false"
             android:screenOrientation="locked"/>
         <activity
-            android:name=".ResetActivity"
-            android:exported="false"
-            android:screenOrientation="locked"/>
-        <activity
-            android:name=".ForgotActivity"
-            android:exported="false"
-            android:screenOrientation="locked" />
-        <activity
             android:name=".MainActivity"
-            android:exported="false"
-            android:screenOrientation="locked" />
-        <activity
-            android:name=".LoginActivity"
             android:exported="false"
             android:screenOrientation="locked" />
         <activity
@@ -38,9 +26,10 @@
             android:exported="false"
             android:screenOrientation="locked" />
         <activity
-            android:name=".RegistrationActivity"
+            android:name=".LoginActivity"
             android:exported="false"
             android:screenOrientation="locked" />
+
         <activity
             android:name=".SplashActivity"
             android:exported="true"

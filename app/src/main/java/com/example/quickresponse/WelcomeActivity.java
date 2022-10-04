@@ -13,9 +13,4 @@ public class WelcomeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_welcome);
     }
-
-    public void Login(View view) {
-        Intent i = new Intent(WelcomeActivity.this, ResetActivity.class);
-        startActivity(i);
-    }
 }
