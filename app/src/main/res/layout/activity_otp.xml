@@ -9,7 +9,9 @@
     <ImageView
         android:layout_width="500dp"
         android:layout_height="wrap_content"
-        android:src="@drawable/otp"/>
+        android:src="@drawable/otp"
+        tools:ignore="ContentDescription" />
+
     <TextView
         android:layout_width="150dp"
         android:layout_height="wrap_content"
@@ -32,7 +34,9 @@
         android:ems="10"
         android:hint="@string/otp"
         android:inputType="textPassword"
-        android:padding="8dp" />
+        android:padding="8dp"
+        android:importantForAutofill="no" />
+
 
     <TextView
         android:layout_width="wrap_content"
@@ -56,6 +60,5 @@
         android:textColor="#FFFFFF"
         android:textSize="23sp"
         android:textStyle="bold" />
-
 
 </RelativeLayout>

@@ -22,4 +22,8 @@
     <string name="otp">Enter OTP</string>
     <string name="otp_resend">Resend Otp</string>
     <string name="submit">Submit</string>
+    <string name="Reset_Password">Reset Password</string>
+    <string name="_Password">Password</string>
+    <string name="Confirm_Password">Confirm Password</string>
+    <string name="_Submit">Submit</string>
 </resources>

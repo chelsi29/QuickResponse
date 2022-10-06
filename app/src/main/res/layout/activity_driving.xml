@@ -120,7 +120,7 @@
             android:layout_height="50dp"
             android:layout_marginStart="60dp"
             android:layout_marginTop="130dp"
-            android:text="I am in meeting,call you later."
+            android:text="I am driving,call you later."
             android:textColor="@color/black"
             android:textSize="20sp"
             android:textStyle="bold" />
@@ -150,7 +150,7 @@
             android:layout_height="40dp"
             android:layout_marginStart="60dp"
             android:layout_marginTop="320dp"
-            android:text="In a Meeting,right now."
+            android:text="Driving,right now."
             android:textColor="@color/black"
             android:textSize="20sp"
             android:textStyle="bold" />
