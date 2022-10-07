@@ -7,16 +7,26 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.QuickResponse"
         tools:targetApi="31">
         <activity
-            android:name=".SleepingActivity"
+            android:name=".SplashActivity"
             android:parentActivityName=".HomeActivity"
             android:exported="false" />
+        <activity
+            android:name=".AddMessageActivity"
+            android:parentActivityName=".HomeActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".SleepingActivity"
+            android:parentActivityName=".HomeActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".MeetingActivity"
+            android:parentActivityName=".HomeActivity"
+            android:exported="false"/>
         <activity
             android:name=".DrivingActivity"
             android:parentActivityName=".HomeActivity"
@@ -24,19 +34,10 @@
         <activity
             android:name=".FunctionActivity"
             android:parentActivityName=".HomeActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="locked"/>
         <activity
             android:name=".HomeActivity"
-            android:exported="false" />
-        <activity
-            android:name=".SplashActivity"
-            android:exported="false" />
-        <activity
-            android:name=".OtpActivity"
-            android:exported="false"
-            android:screenOrientation="locked" />
-        <activity
-            android:name=".MainActivity"
             android:exported="false"
             android:screenOrientation="locked" />
         <activity
@@ -44,11 +45,15 @@
             android:exported="false"
             android:screenOrientation="locked" />
         <activity
+            android:name=".OtpActivity"
+            android:exported="false"
+            android:screenOrientation="locked" />
+        <activity
             android:name=".LoginActivity"
             android:exported="false"
             android:screenOrientation="locked" />
         <activity
-            android:name=".MeetingActivity"
+            android:name=".MainActivity"
             android:exported="true"
             android:screenOrientation="locked">
             <intent-filter>
@@ -58,5 +63,4 @@
             </intent-filter>
         </activity>
     </application>
-
 </manifest>

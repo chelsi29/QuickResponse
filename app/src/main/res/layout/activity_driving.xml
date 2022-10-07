@@ -28,7 +28,8 @@
             android:layout_marginTop="10dp"
             android:text="Auto Reply On/Off"
             android:textSize="25sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
 
         <Switch
             android:id="@+id/switch2"

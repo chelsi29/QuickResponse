@@ -7,9 +7,10 @@
     tools:context=".OtpActivity">
 
     <ImageView
-        android:layout_width="500dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:src="@drawable/otp"
+        android:layout_marginBottom="490sp"
         tools:ignore="ContentDescription" />
 
     <TextView
@@ -19,23 +20,23 @@
         android:layout_marginTop="270dp"
         android:text="@string/otp"
         android:textColor="@color/black"
-        android:textStyle="bold"
-        android:textSize="30sp"/>
+        android:textSize="30sp"
+        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/password"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="60dp"
         android:layout_marginTop="370dp"
+        android:layout_centerHorizontal="true"
         android:background="@drawable/edit"
         android:drawableStart="@drawable/ic_otp"
         android:drawablePadding="20dp"
         android:ems="10"
         android:hint="@string/otp"
+        android:importantForAutofill="no"
         android:inputType="textPassword"
-        android:padding="8dp"
-        android:importantForAutofill="no" />
+        android:padding="8dp" />
 
 
     <TextView
@@ -48,14 +49,14 @@
         android:textStyle="bold" />
 
     <Button
-        android:id="@+id/btn_1"
+        android:id="@+id/otp"
         android:layout_width="230dp"
         android:layout_height="40dp"
         android:layout_marginStart="75dp"
         android:layout_marginTop="470dp"
         android:background="@drawable/button"
         android:backgroundTint="@color/white"
-        android:text="@string/submit"
+        android:text="@string/verify_otp"
         android:textAllCaps="false"
         android:textColor="#FFFFFF"
         android:textSize="23sp"
